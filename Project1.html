@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="Groceries.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <div>
+        <label for="item">Add Item:</label>
+        <input type="text" id="item">
+        <button onclick="addItem()">Add Item To The List</button>
+    </div>
+
+    <div>
+        <button onclick="showAll()">Show All Items</button>
+        <button onclick="showRemaining()">Show Remaining Items</button>
+        <button onclick="showPurchased()">Show Purchased Items</button>
+    </div>
+
+    <ul id="groceries">
+    </ul>
+</body>
+</html>
